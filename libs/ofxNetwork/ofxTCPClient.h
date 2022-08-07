@@ -9,6 +9,7 @@
 //#define STR_END_MSG "[/TCP]"
 //#define STR_END_MSG_LEN 6
 
+using namespace std;
 
 class ofxTCPClient{
 

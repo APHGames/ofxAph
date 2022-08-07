@@ -66,6 +66,8 @@ x) Close()
 #include <string.h>
 #include <wchar.h>
 #include <stdio.h>
+#include "ofLog.h"
+
 
 #ifndef TARGET_WIN32
 
@@ -107,6 +109,7 @@ x) Close()
 
 //--------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------
+using namespace std;
 
 // Implementation of a UDP socket.
 class ofxUDPManager

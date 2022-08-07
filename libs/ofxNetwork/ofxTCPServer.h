@@ -2,6 +2,7 @@
 
 #include "ofConstants.h"
 #include "ofThread.h"
+#include "ofLog.h"
 #include "ofxTCPManager.h"
 #include <map>
 #include <condition_variable>

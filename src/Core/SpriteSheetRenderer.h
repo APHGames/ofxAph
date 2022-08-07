@@ -1,6 +1,9 @@
 #pragma once
 
 #include "ofTexture.h"
+#include <map>
+
+using namespace std;
 
 
 /**
@@ -112,6 +115,7 @@ struct SpriteLayer {
 			delete[] colors;
 	}
 };
+
 
 /**
  * Class that renders sprites using OpenGL api

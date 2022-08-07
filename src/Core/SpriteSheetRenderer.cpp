@@ -1,6 +1,6 @@
 #include "SpriteSheetRenderer.h"
 #include "AphUtils.h"
-
+#include "ofLog.h"
 
 SpriteSheetRenderer::SpriteSheetRenderer() {
 	buffers = map<string, SpriteLayer*>();

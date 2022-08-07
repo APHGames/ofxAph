@@ -6,6 +6,8 @@ namespace jsonxx {
 	class Object;
 }
 
+using namespace std;
+
 class SpriteSheet;
 
 /**

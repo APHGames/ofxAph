@@ -10,6 +10,7 @@
 #include <cerrno>
 #include "ofConstants.h"
 #include "ofUtils.h"
+#include "ofLog.h"
 
 #ifdef TARGET_WIN32
 #define WSAENOMEM	WSA_NOT_ENOUGH_MEMORY

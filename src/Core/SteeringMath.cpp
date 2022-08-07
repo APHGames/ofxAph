@@ -1,4 +1,5 @@
 #include "SteeringMath.h"
+#include "ofMath.h"
 
 ofVec2f SteeringMath::Seek(Trans& transform, Dynamics* dynamics, ofVec2f dest, float maxVelocity) {
 	ofVec2f desiredVelocity = (dest - transform.localPos).normalized() * maxVelocity;

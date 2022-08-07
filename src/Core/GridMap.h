@@ -6,10 +6,11 @@
 #include <array>
 #include "Vec2i.h"
 
-
 enum class MapType {
 	TILE, OCTILE
 };
+
+using namespace std;
 
 /**
 * Grid-based map for searching algorithms

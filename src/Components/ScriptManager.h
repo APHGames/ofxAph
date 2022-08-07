@@ -7,6 +7,7 @@
 
 using namespace std;
 
+#include "ofFileUtils.h"
 #include "StrId.h"
 
 namespace luabridge {
